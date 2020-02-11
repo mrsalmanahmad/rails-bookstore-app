@@ -1,2 +1,36 @@
-<h1>Books#index</h1>
-<p>Find me in app/views/books/index.html.erb</p>
+<div id="books-index">
+  <div class="row">
+      <div class="col-md-3 col-sm-3">
+        <h3>Ruby on rails Learning</h3>
+        <%= image_tag('Covers/1.jpg') %>
+        <%= link_to 'Read More', book_path(1), class:'btn btn-primary' %>
+      </div>
+      <div class="col-md-3 col-sm-3">
+        <h3>Ruby on rails Learning</h3>
+        <%= image_tag('Covers/2.jpg') %>
+        <%= link_to 'Read More', book_path(2), class:'btn btn-primary' %>
+      </div>
+      <div class="col-md-3 col-sm-3">
+        <h3>Ruby on rails Learning</h3>
+        <%= image_tag('Covers/4.jpg') %>
+        <%= link_to 'Read More', book_path(3), class:'btn btn-primary' %>
+      </div>
+    </div>
+  <div class="row">
+    <div class="col-md-3 col-sm-3">
+      <h3>Ruby on rails Learning</h3>
+      <%= image_tag('Covers/1.jpg') %>
+      <%= link_to 'Read More', book_path(4), class:'btn btn-primary' %>
+    </div>
+    <div class="col-md-3 col-sm-3">
+      <h3>Ruby on rails Learning</h3>
+      <%= image_tag('Covers/7.jpg') %>
+      <%= link_to 'Read More', book_path(5), class:'btn btn-primary' %>
+    </div>
+    <div class="col-md-3 col-sm-3">
+      <h3>Ruby on rails Learning</h3>
+      <%= image_tag('Covers/8.jpg') %>
+      <%= link_to 'Read More', book_path(6), class:'btn btn-primary' %>
+    </div>
+  </div>
+</div>

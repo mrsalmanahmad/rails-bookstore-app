@@ -15,4 +15,22 @@
  */
 body{
     padding-top: 5rem;
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+    color: #666666;
+    line-height: 1.5em;
+}
+header{
+    background: #333;
+    color: #fff;
+    height: 80px;
+    margin-bottom: 20px;
+}
+footer{
+    background: #333;
+    color: #fff;
+    height: 60px;
+    margin-top: 20px;
+    text-align: center;
+    padding-top: 20px;
 }

@@ -14,11 +14,12 @@
  *= require_self
  */
 body{
-    padding-top: 5rem;
+    padding-top: 3rem;
     font-family: 'Arial', sans-serif;
     font-size: 14px;
     color: #666666;
     line-height: 1.5em;
+    text-align: center;
 }
 header{
     background: #333;
@@ -48,4 +49,22 @@ footer{
 #books-index .btn{
     display:block;
     margin-top: 20px;
+}
+
+#books-show h2{
+    background: #999999;
+    padding: 10px;
+}
+.books-show-left{
+    float: left;
+    width: 40px;
+}
+
+/*.books-show-right{*/
+/*    float: left;*/
+/*    width: 60px;*/
+/*    margin-top: 10px;*/
+/*}*/
+#books-show-btn{
+    margin: 20px 0 0 70px;
 }

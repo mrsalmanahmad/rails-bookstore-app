@@ -1,2 +1,29 @@
-<h1>Books#show</h1>
-<p>Find me in app/views/books/show.html.erb</p>
+<div id="books-show">
+  <h2>Ryby on Rails Power</h2>
+  <div class="books-show-left">
+    <%= image_tag('Covers/8.jpg') %>
+  </div>
+  <div class="books-show-right">
+    <h1>Books Info</h1>
+    <ul>
+      <li><storng>Category:</storng> Ruby on Rials</li>
+      <li><storng>Author:</storng> Salman Ahmad</li>
+      <li><storng>Publisher:</storng> Course Technology PTR</li>
+      <li><storng>Year:</storng> 2020</li>
+      <li><storng>ISBN:</storng> 567981321365</li>
+      <li><storng>Format:</storng> Paperback</li>
+      <li><storng>Pages:</storng> 6885</li>
+    </ul>
+    <%=link_to "Buy for 290 RS", "https://mrsalmanahmad.github.io/", class:"btn btn-success",target:"_blank" %>
+  </div>
+  <div class="clearfix">
+    <h1>Excerpt</h1>
+    <p>
+      simply dummy text of the printing and typesetting industry.
+      Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+      when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+      It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+      It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+    </p>
+  </div>
+</div>

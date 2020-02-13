@@ -1,5 +1,7 @@
 class PublishersController < ApplicationController
   def new
+    @page_title = 'Add new Publisher'
+    @publisher = Category.new
   end
 
   def create

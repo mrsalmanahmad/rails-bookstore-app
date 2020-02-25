@@ -4,8 +4,8 @@
       <%book.each do |book| %>
         <div class="col-md-3 col-sm-3">
           <h3><%= book.title %></h3>
-            <%= image_tag(book.coverpath) %>
-            <%#= image_tag('Covers/1.jpg') %>
+          <%= image_tag(book.coverpath) %>
+          <%#= image_tag('Covers/1.jpg') %>
           <%= link_to 'Read More', book_path(book), class:'btn btn-primary' %>
         </div>
       <%end%>

@@ -18,19 +18,31 @@ class BooksController < ApplicationController
   end
 
   def update
+    @book = Book.find(params[:id])
+    @book.update(book_params)
+    flash[:notice] = "Book Updated"
+    redirect_to books_path
   end
 
   def edit
+    @book = Book.find(params[:id])
   end
 
   def destroy
+    @book = Book.find(params[:id])
+    @book.destroy
+    flash[:notice] = "Book Removed"
+    redirect_to books_path
   end
 
   def index
     @books = Book.all
+    @categories = Category.all
   end
 
   def show
+    @book = Book.find(params[:id])
+    @categories = Category.all
   end
 
   private

@@ -6,6 +6,16 @@ https://www.eduonix.com/dashboard/Learn-Ruby-on-Rails-By-Building-Projects
 
 How to Setup the Project
 
+1. Clone the Project
+2. Download XAMPP https://www.apachefriends.org/index.html
+3. Download PhpMyAdmin https://www.phpmyadmin.net/downloads/
+4. Create Database -> bookstore_development
+5. Run Command -> gem install
+6. Start Appache Server 
+7. Run Command -> rails s
+
+How to Setup MySql DB: 
+
 Used MySql in this project: 
 
 To Setup Mysql got to the -> bookstore/config/database.yml

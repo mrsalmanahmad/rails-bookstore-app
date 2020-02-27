@@ -11,8 +11,9 @@ How to Setup the Project
 3. Download PhpMyAdmin https://www.phpmyadmin.net/downloads/
 4. Create Database -> bookstore_development
 5. Run Command -> gem install
-6. Start Appache Server 
-7. Run Command -> rails s
+6. Start Appache Server
+7. Run Command rails db:migrate
+8. Run Command -> rails s
 
 How to Setup MySql DB: 
 

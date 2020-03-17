@@ -42,3 +42,4 @@ Example:
   
   How to StartServer: rails s
   Sometimes you are not beign able to start the server as previous service is still running in the backgroun just type: shutup
+  gem install shutup

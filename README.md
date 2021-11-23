@@ -4,7 +4,7 @@ You can watch entire series on Eduonix Website.
 
 https://www.eduonix.com/dashboard/Learn-Ruby-on-Rails-By-Building-Projects
 
-How to Setup the Project
+How to Setup the Project....
 
 1. Clone the Project
 2. Download XAMPP https://www.apachefriends.org/index.html
